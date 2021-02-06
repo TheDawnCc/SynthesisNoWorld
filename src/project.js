@@ -1009,8 +1009,8 @@ window.__require = function e(t, n, o) {
                 }, t.prototype.OnClickMoreGame = function () {
                     this.canClick && (this.moreGameBtn.off(cc.Node.EventType.TOUCH_START, this.OnClickMoreGame, this), this.canClick = !1, this.moreGameBtn.runAction(cc.sequence(cc.scaleTo(.1, 1.1), cc.scaleTo(.1, 1))), this.scheduleOnce(function () {
                         console.log('MainMenuBtnClick');
-                        //location.reload();
                         window.location.href = "https://space.bilibili.com/434662713";
+                        location.reload();
                         //window.location.href = "localhost:5000" // 左上角主页按钮
                     }, .15))
                 }, t.prototype.GetContentByScore = function (e) {
