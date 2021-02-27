@@ -1,7 +1,7 @@
 # 合成NoiR发布地址 https://synthesis-no-world.vercel.app
 
-![示例图](./assets/Show.jpg)
-![结束示例图](./assets/ShowEnd.jpg)
+![示例图](./assets/Show.png)
+![结束示例图](./assets/ShowEnd.png)
 
 # 合成大西瓜
 
